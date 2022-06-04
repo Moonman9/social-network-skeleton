@@ -11,4 +11,11 @@ router
     .get(getAllUsers)
     .post(addNewUser);
 
+//manage user by id
+router
+  .route('/:id')
+  .get(getUserById)
+  .put(updateUser)
+  .delete(deleteUser);
+
 module.exports = router;
