@@ -6,7 +6,7 @@ const ReactionSchema = new Schema(
     {
         // Stored using mongoose set as a new ObjectId
         reactionId: {
-            type: Schema.Types.ObjectId(),
+            type: Schema.Types.ObjectId,
             default: () => new Types.ObjectId()
         },
         reactionBody: {
