@@ -14,6 +14,7 @@ const {
 router
     .route('/')
     .get(getAllThoughts);
+    
 
 // /api/thoughts/:userId
 router
